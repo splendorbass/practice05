@@ -14,6 +14,7 @@ public class ShapeTest {
 			System.out.println( "perimeter: " + shape.getPerimeter() );
 			
 			if( shape instanceof Resizable ) {
+				
 				((Resizable)shape).resize( 0.5 );
 				System.out.println( "new area: " + shape.getArea() );
 				System.out.println( "new perimeter: " + shape.getPerimeter() );
